@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
 
 body {
+  background: linear-gradient(to bottom, #ffffff 15%, #ff9900 163%);
   font-family: 'Nanum Gothic', sans-serif;
 }

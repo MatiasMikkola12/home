@@ -57,14 +57,6 @@ class Isometric extends Component {
             '#aaff00',
           ]}
         />
-        <Cell
-          layers={[
-            'https://picsum.photos/200/300/?random',
-            '#ff8800',
-            '#ffe100',
-            '#aaff00',
-          ]}
-        />
       </IsometricGrid>
     );
   }

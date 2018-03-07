@@ -11,7 +11,7 @@ class App extends Component {
         return (
             <div className="home-hero">
               <Introduction />
-              <img src={Ball} />
+              <img className="ball" src={Ball} />
               <div>
                 <Isometric />
               </div>
