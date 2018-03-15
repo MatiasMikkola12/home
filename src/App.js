@@ -10,8 +10,7 @@ class App extends Component {
     render () {
         return (
             <div className="home-hero">
-              <div className="sidenav" />
-
+              <div className="sideimg" />
               <div className="main">
                 <h1>Matias Mikkola</h1>
               </div>
