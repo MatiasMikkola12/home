@@ -1,13 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Source+Serif+Pro');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
-@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
 
 html * {
-  /* font-family: 'Source Serif Pro', serif; */
-  /* font-family: 'Playfair Display', serif; */
-  font-family: 'Anton', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
 }
-
-/* h1 {
-  font-family: 'Source Serif Pro', serif;
-} */
