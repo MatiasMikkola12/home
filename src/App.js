@@ -1,24 +1,36 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Computer from './assets/unsplash.jpg'
-import Introduction from './components/Introduction/Introduction';
-import Isometric from './components/Isometric/Isometric'
+import { fadeInUp, fadeInDown } from 'react-animations';
+import Radium, {StyleRoot} from 'radium';
 
+const styles = {
+  fadeInUp: {
+    animation: 'x 2s',
+    animationName: Radium.keyframes(fadeInUp, 'fadeInUp')
+  },
+  fadeInDown: {
+    animation: 'x 2s',
+    animationName: Radium.keyframes(fadeInDown, 'fadeInDown')
+  }
+}
 
 class App extends Component {
     render () {
         return (
-            <div className="home-hero">
-              <div className="sideimg" />
-              <h1>Matias Mikkola</h1>
-              <div className="main">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-              </div>
+          <div class="hero">
+            <div class="header">
+              <StyleRoot>
+                <div className="test" style={styles.fadeInUp}>
+                  <h1>Matias Mikkola</h1>
+                </div>
+              </StyleRoot>
+              <StyleRoot>
+                <div className="test" style={styles.fadeInDown}>
+                  <h1>UI Developer</h1>
+                </div>
+              </StyleRoot>
             </div>
+          </div>
         )
     }
 };
