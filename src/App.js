@@ -1,35 +1,33 @@
 import React, { Component } from 'react';
 import './App.css';
-import { fadeInUp, fadeInDown } from 'react-animations';
-import Radium, {StyleRoot} from 'radium';
-
-const styles = {
-  fadeInUp: {
-    animation: 'x 2s',
-    animationName: Radium.keyframes(fadeInUp, 'fadeInUp')
-  },
-  fadeInDown: {
-    animation: 'x 2s',
-    animationName: Radium.keyframes(fadeInDown, 'fadeInDown')
-  }
-}
+import Home from './components/Home/Home';
+import About from './components/About/About';
 
 class App extends Component {
+
+componentDidMount() {
+  window.addEventListener('scroll', this.handleScroll);
+};
+
+componentWillUnmount() {
+  window.removeEventListener('scroll', this.handleScroll);
+};
+
+handleScroll() {
+  window.scroll({
+    top: 2500,
+    left: 0,
+    behavior: 'smooth'
+  });
+};
+
+// glitchy AFFFFF
+
     render () {
         return (
-          <div class="hero">
-            <div class="header">
-              <StyleRoot>
-                <div className="test" style={styles.fadeInUp}>
-                  <h1>Matias Mikkola</h1>
-                </div>
-              </StyleRoot>
-              <StyleRoot>
-                <div className="test" style={styles.fadeInDown}>
-                  <h1>UI Developer</h1>
-                </div>
-              </StyleRoot>
-            </div>
+          <div className="App">
+            <Home />
+            <About />
           </div>
         )
     }

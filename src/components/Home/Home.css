@@ -1,0 +1,35 @@
+.hero {
+  background-color: #ffafbd;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 70%;
+  width: 50%;
+  color: #fff;
+  font-size: 12px;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+  -webkit-transform: translate(0,-50%); /* Safari */
+  transform: translate(0,-50%);
+}
+
+.test {
+  margin: 20px;
+}
+
+@media only screen and (max-width: 756px) {
+    .header {
+      width: 60%;
+      font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 546px) {
+    .header {
+      width: 100%;
+      font-size: 10px;
+    }
+}
