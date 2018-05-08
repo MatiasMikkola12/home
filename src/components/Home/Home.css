@@ -20,6 +20,14 @@
   margin: 20px;
 }
 
+.down {
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  color: white;
+  font-size: 22px;
+}
+
 @media only screen and (max-width: 756px) {
     .header {
       width: 60%;
