@@ -21,6 +21,18 @@ const styles = {
 }
 
 class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    window.scroll({
+      top: 2500,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }
     render () {
         return (
           <div className="hero">
@@ -37,7 +49,7 @@ class Home extends Component {
               </StyleRoot>
             </div>
             <StyleRoot>
-              <div className="down" style={styles.fadeInDownQuick}>
+              <div className="down" style={styles.fadeInDownQuick} onClick={this.handleClick}>
                 <TiArrowSortedDown />
               </div>
             </StyleRoot>
