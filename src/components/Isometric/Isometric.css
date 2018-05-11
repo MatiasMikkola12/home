@@ -1,0 +1,9 @@
+.portfolio {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio img {
+  height: 50px;
+  width: 50px;
+}

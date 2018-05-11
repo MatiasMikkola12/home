@@ -15,7 +15,7 @@ const styles = {
   },
 
   fadeInDownQuick: {
-    animation: 'x 4s',
+    animation: 'x 5s',
     animationName: Radium.keyframes(fadeInDown, 'fadeInDownQuick')
   }
 }
