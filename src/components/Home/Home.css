@@ -1,5 +1,6 @@
 .hero {
-  background: #ff9fb0;
+  background: rgb(255,150,150);
+  background: linear-gradient(278deg, rgba(255,150,150,1) 0%, rgba(255,154,0,1) 100%, rgba(255,0,0,1) 100%);
   height: 100vh;
 }
 
@@ -30,14 +31,17 @@
 
 @media only screen and (max-width: 756px) {
     .header {
-      width: 60%;
-      font-size: 10px;
+      display: block;
+      text-align: center;
+      width: 100%;
+      font-size: 14px;
+      top: 50%;
     }
 }
 
 @media only screen and (max-width: 546px) {
     .header {
       width: 100%;
-      font-size: 10px;
+      font-size: 12px;
     }
 }
