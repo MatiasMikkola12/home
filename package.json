@@ -5,6 +5,7 @@
   "dependencies": {
     "dynamics": "^1.0.0",
     "normalize.css": "^8.0.0",
+    "prop-types": "^15.6.1",
     "radium": "^0.24.0",
     "react": "^16.2.0",
     "react-animations": "^1.0.0",
