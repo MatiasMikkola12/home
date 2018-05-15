@@ -15,14 +15,12 @@ class Card extends Component {
     render () {
         return (
           <a href={this.props.target} target="_blank">
-            <div className="card-container">
-                <div className="card">
-                  <img src={this.props.img} alt="img" />
-                  <div className="container">
-                    <h4><b>{this.props.title}</b></h4>
-                    <p>{this.props.description}</p>
-                  </div>
-                </div>
+            <div className="card">
+              <img src={this.props.img} alt="img" />
+              <div className="container">
+                <h4><b>{this.props.title}</b></h4>
+                <p>{this.props.description}</p>
+              </div>
             </div>
           </a>
         )
