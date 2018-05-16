@@ -1,7 +1,46 @@
 .hero {
-  background: rgb(255,150,150);
-  background: linear-gradient(278deg, rgba(255,150,150,1) 0%, rgba(255,154,0,1) 100%, rgba(255,0,0,1) 100%);
   height: 100vh;
+  background: linear-gradient(-45deg, #ffa500, #ffaab9, #ffa500, #ffaab9);
+	background-size: 400% 400%;
+	-webkit-animation: gradient-ani 7s ease infinite;
+	-moz-animation: gradient-ani 7s ease infinite;
+	animation: gradient-ani 7s ease infinite;
+}
+
+@-webkit-keyframes gradient-ani {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes gradient-ani {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes gradient-ani {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
 
 .header {
