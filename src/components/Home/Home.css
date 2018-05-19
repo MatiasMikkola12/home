@@ -1,10 +1,10 @@
 .hero {
   height: 100vh;
-  background: linear-gradient(-45deg, #ffa500, #ffaab9);
+  background: linear-gradient(-45deg, orange, pink);
 	background-size: 400% 400%;
-	-webkit-animation: gradient-ani 7s ease infinite;
-	-moz-animation: gradient-ani 7s ease infinite;
-	animation: gradient-ani 7s ease infinite;
+	-webkit-animation: gradient-ani 5s ease infinite;
+	-moz-animation: gradient-ani 5s ease infinite;
+	animation: gradient-ani 5s ease infinite;
 }
 
 @-webkit-keyframes gradient-ani {

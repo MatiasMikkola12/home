@@ -16,7 +16,7 @@
 }
 
 .about-me a {
-  color: rgb(255,150,150);
+  color: orange;
   -webkit-transition: color 1s; /* Safari */
   transition: color 1s;
 }
