@@ -1,21 +1,49 @@
+img {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
+}
+
+
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    width: 100%;
-    margin: 2%;
+	background: white;
+	margin-bottom: 2em;
 }
 
-@media only screen and (max-width: 756px) {
-  .card img {
-    width: 100%;
-  }
+.card a {
+	color: black;
+	text-decoration: none;
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+.card a:hover {
+	box-shadow: 3px 3px 8px hsl(0, 0%, 80%);
 }
 
-a {
-  color: black;
-  text-decoration: none; /* no underline */
+.card-content {
+	padding: 1.4em;
+}
+
+.card-content h2 {
+	margin-top: 0;
+	margin-bottom: .5em;
+	font-weight: bold;
+}
+
+.card-content p {
+	font-size: 80%;
+}
+
+/* Flexbox stuff */
+
+@media screen and (min-width: 40em) {
+    .card {
+        flex: 0 1 calc(50% - 1em);
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .card {
+        flex: 0 1 calc(25% - 1em);
+    }
 }

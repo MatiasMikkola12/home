@@ -14,15 +14,18 @@ class Card extends Component {
 
     render () {
         return (
-          <a href={this.props.target} target="_blank">
-            <div className="card">
-              <img src={this.props.img} alt="img" />
-              <div className="container">
-                <h4><b>{this.props.title}</b></h4>
-                <p>{this.props.description}</p>
-              </div>
-            </div>
-          </a>
+          <article class="card">
+              <a href="#">
+                  <picture class="thumbnail">
+                      <img src="http://www.abbeyjfitzgerald.com/wp-content/uploads/2017/02/image-example-01.jpg" alt="A banana that looks like a bird" />
+                  </picture>
+                  <div class="card-content">
+
+                      <h2>Vacation Image 01</h2>
+                      <p>TUX re-inventing the wheel, and move the needle. Feature creep dogpile that but diversify kpis but market-facing.</p>
+                  </div>
+              </a>
+          </article>
         )
     }
 };

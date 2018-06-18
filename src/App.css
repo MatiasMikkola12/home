@@ -1,0 +1,7 @@
+@media screen and (min-width: 40em) {
+    .card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
