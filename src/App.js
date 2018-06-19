@@ -11,10 +11,19 @@ class App extends Component {
           <div className="App">
             <Home />
             <About />
-            <section className="card-wrapper">
-              <Card />
-              <Card />
-            </section>
+            <div className="work-section">
+              <h1 className="work-section-title">
+                Work
+              </h1>
+              <section className="card-wrapper">
+                <Card
+                  img="http://www.slush.org/wp-content/uploads/2017/08/idean-logo-k-3840w.png"
+                  />
+                <Card
+                  img="https://www.drupal.org/files/Capgemini_Logo_2COL_RGB.png"
+                  />
+              </section>
+            </div>
           </div>
         )
     }
