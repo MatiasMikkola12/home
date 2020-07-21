@@ -17,7 +17,7 @@ class App extends Component {
               </h1>
               <section className="card-wrapper">
                 <Card
-                  img="http://www.slush.org/wp-content/uploads/2017/08/idean-logo-k-3840w.png"
+                  img="https://pngimg.com/uploads/ibm/ibm_PNG19660.png"
                   />
                 <Card
                   img="https://www.drupal.org/files/Capgemini_Logo_2COL_RGB.png"

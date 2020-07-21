@@ -12,8 +12,8 @@ class About extends Component {
             </div>
             <div className="about-me">
               <h1>Hello,</h1>
-              <p>I'm a UI developer located in beautiful Palo Alto, CA. Currently working for <a href="https://www.idean.com/" target="_blank">idean.com</a>.</p>
-              <p>I work mainly with web technologies - html, css, javascript, including react and redux.</p>
+              <p>I'm a Software Developer located in London, UK. I'm currently working for <a href="https://www.infinityworks.com/" target="_blank">infinityworks.com</a>.</p>
+              <p>I've previously worked with front-end technologies, Javascript, Typescript, React + Redux, as well as Golang and AWS Cloud.</p>
               <p>Please don't hesitate to contact me if you feel like we should chat!</p>
               <ul>
                 <li><a href="https://www.linkedin.com/in/matias-mikkola-6a5b0a63/" target="_blank">linkedin</a></li>

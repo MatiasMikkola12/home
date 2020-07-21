@@ -50,7 +50,7 @@
   top: 70%;
   width: 50%;
   color: #fff;
-  font-size: 12px;
+  font-size: 32px;
   -ms-transform: translate(0,-50%); /* IE 9 */
   -webkit-transform: translate(0,-50%); /* Safari */
   transform: translate(0,-50%);
@@ -65,7 +65,7 @@
   left: 50%;
   top: 90%;
   color: white;
-  font-size: 22px;
+  font-size: 46px;
 }
 
 @media only screen and (max-width: 756px) {
